@@ -23,19 +23,6 @@ class Workers {
 		$query=mysqli_query($this->conn,$sql);
 		return $query;
 	}
-
-	// public $name;
-	// public $surname;
-	// public $position;
-	// public $birthDate;
-
-	// public function addWorker($ad,$soyad,$position,$adgunu){
-	// 		$this->name=$ad;
-	// 		$this->surname=$soyad;
-	// 		$this->position=$position;
-	// 		$this->birthDate=$adgunu;
-	// 		$sql="SELECT FROM "
-	// }
 }
 $a= new Workers('localhost','root','','lala');
 
